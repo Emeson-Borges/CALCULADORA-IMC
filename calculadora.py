@@ -21,7 +21,7 @@ def classificar_imc(imc):
 def peso_ideal(altura):
     return (18.5 * altura ** 2, 24.9 * altura ** 2)
 
-st.title("Calculadora de IMC Melhorada 🏋️")
+st.title("Calculadora de IMC 🏋️")
 st.write("Insira seu peso e altura para calcular seu IMC e obter recomendações de saúde.")
 
 peso = st.number_input("Peso (kg)", min_value=0.0, format="%.2f")
